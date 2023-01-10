@@ -1,0 +1,675 @@
+
+
+@font-face {
+    font-family: "Nike TG";
+    font-style: normal;
+    font-weight: 400;
+    src: url(./fonts/Nike-TG.woff2) format('woff2'),url(./fonts/Nike-TG.woff) format('woff'),url(./fonts/Nike-TG.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: "Nike Futura";
+    font-style: normal;
+    font-weight: 400;
+    src: url(./fonts/Nike-Futura.woff2) format('woff2'),url(./fonts/Nike-Futura.woff) format('woff'),url(./fonts/Nike-Futura.ttf) format('truetype')
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+   list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+#header1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #f5f5f5;
+    height: 40px;
+
+}
+#header1 a{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: smaller;
+}
+.header1-menu{
+    display: flex;
+    font-size: smaller;
+}
+.header1-menu li{
+    padding: 5px 3px;
+}
+.header1-menu a{
+    text-decoration: none;
+    padding: 7px;
+    font-size: small;
+    color: #111111;
+}
+#header2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 35px;
+
+}
+#menu2{
+
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 60px;
+    margin-left: 8rem;
+
+    
+}
+#menu2 a{
+    margin-left: 30px;
+    padding-bottom: 8px;
+    color: #000000;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+
+}
+#menu2 a:hover{
+    border-bottom: 2px black solid;
+}
+.menu3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-right: 35px;    
+}
+#search{
+    height: 40px;
+    width: 180px;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    border: none;
+    
+    
+
+}
+#search::placeholder{
+    padding-left: 45px;
+    font-size: larger;
+    
+    color:#d1cdcd; ;
+
+}
+.search-button{
+    position: absolute;
+    z-index: 1;
+    top: 8px;
+    left: 34px;
+}
+.icon{
+    padding-left: 27px;
+    border-radius: 50px;
+}
+#header3{
+    width: 100%;
+    height: 60px;
+    background-color:#f5f5f5 ;
+
+    align-items: center;
+    
+}
+.text{
+    padding-left: 45%;
+    padding-top: 8px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.text2{
+    padding-left: 44%;
+    padding-top:8px ;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:x-small;
+}
+#header4{
+    margin-bottom: 30px;
+}
+#header4 a img{
+    width: 100%;
+    
+    padding: 0 50px;
+}
+.header4-text1{
+    padding: 0 36%;
+    font-family: "Nike Futura","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+
+}
+.header4-text2{
+    padding: 0 43%;
+    margin-top: -2rem;
+    font-weight: bold;
+    font-size: 80px; 
+    font-family: "Nike Futura","Helvetica Neue",Helvetica,Arial,sans-serif; 
+}
+.header4-text3{
+    padding: 0 30%;
+}
+#header4 button{
+    margin-top: 20px;
+    margin-left: 45% ;
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: #d1cdcd;
+
+}
+
+.latest{
+    display: flex;
+    margin-bottom: 5px;
+
+}
+.child1{
+    text-align: center;
+    margin-left: 35px;
+    background-image: url('image2.webp');
+    background-size: cover;
+    width: 708px;
+    height: 708px;
+    margin-left: 50px;
+    margin-left: 50px;
+}
+.child2{
+    
+    margin-left: 2px;
+    background-image: url('image3.webp');
+    background-size: cover;
+    width: 708px;
+    height: 708px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.title{
+    margin-left: 50px;
+    padding-bottom: 35px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+    font-size: x-large;
+}
+.text-insidechild1{
+    margin-top: 526px;
+    margin-right: 360px;
+    
+    
+}
+.insidetext1{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:lighter;
+    line-height: 1.5;
+    font-size: 16px;
+    padding-right: 41px;
+    
+
+    
+}
+.insidetext2{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+    
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: lighter;
+    padding-right: 15px;
+}
+.button2{
+    margin-top: 30px;
+    margin-right: 101px;
+    width: 108px;
+    height: 43px;
+    background-color: black;
+    border: none;
+    color: #d1cdcd;
+    border-radius: 125px;
+    
+
+}
+.text-insidechild2{
+    margin-top: 536px;
+    margin-left: 41px;
+    
+}
+.childtext1{
+    
+ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        
+        
+ font-size: 20px;
+ padding-top: 10px;
+ font-weight: lighter;
+ padding-left: 15px;
+ color: white;
+}
+.button3{
+    margin-top: 30px;
+    margin-left: 17px;
+    width: 95px;
+    height: 47px;
+    background-color: rgb(239, 236, 236);
+    border: none;
+    color: #0e0e0e;
+    border-radius: 125px;
+}
+#body2{
+    margin-bottom: -16px;
+    margin-top: 100px;
+}
+.title1{
+    margin-left: 50px;
+    padding-bottom: 35px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+    font-size: x-large;
+}
+#body3{
+ display: flex;
+ margin-bottom: 15px;
+}
+
+.image4{
+    width: 444px;
+    height: 600px;
+    background-image: url(image4.webp);
+    background-size: cover;
+    margin-left: 50px;
+    
+}
+.image5{
+    width: 444px;
+    height: 600px;
+    background-image: url(image5.webp);
+    background-size: cover;
+    margin-left: 10px;
+    
+}
+.image6{
+    width: 444px;
+    height: 600px;
+    background-image: url(image6.webp);
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 50px;
+    
+}
+.button4{
+    margin-top: 519px;
+    margin-left: 37px;
+    background-color: #0e0e0e;
+    color: #d1cdcd;
+    width: 114px;
+    height: 38px;
+    border-radius: 125px;
+    font-weight: 400px;
+    
+
+}
+#body4{
+    margin-bottom: -16px;
+    margin-top: 129px;
+    display: flex;
+}
+.title2{
+    margin-left: 50px;
+    padding-bottom: 35px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+    font-size: x-large;
+    
+}
+.title3{
+    margin-left: 1067px;
+    padding-bottom: 35px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.button5{
+    width: 45px;
+    height: 47px;
+    border-radius: 81px;
+    background-color: #f5f5f5;
+    border: none;
+    font-size: large;
+    margin-right: 5px;
+    margin-top: -10px;
+
+}
+.button6{
+    width: 45px;
+    height: 47px;
+    border-radius: 81px;
+    background-color: #cccaca;
+    border: none;
+    font-size: large;
+    margin-top: -10px;
+
+}
+.button6:hover{
+    background-color: rgb(97, 95, 95);
+}
+ #body5{
+    overflow:auto;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    /* grid-template-columns: repeat(auto-fit,minmax(2px,1fr)); */
+    /* grid-gap: 10px; */
+    margin-left: 44px;
+    margin-bottom: 20px;
+}
+.scroll{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.image7{
+    /* padding-left: 5px; */
+    width: 467px;
+    height: 441px;
+} 
+.price-shoe{
+    display: flex;
+   
+    margin-bottom: 40px;
+    
+}
+.price1 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+    font-size: large;
+
+    
+}
+#mensshoes{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+    color: #a5a4a4;
+    font-size: medium;
+    
+}
+
+.oldprice0 {
+    padding-left: 117px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+
+}
+.oldprice1 {
+    padding-left: 294px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+
+}
+.oldprice2{
+    padding-left: 217px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+
+}
+.oldprice3 {
+    padding-left: 170px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+
+}
+.oldprice4 {
+    padding-left: 164px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+
+}
+.oldprice5 {
+    padding-left: 250px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+
+}
+.oldprice6 {
+    padding-left: 195px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+
+}
+.oldprice7 {
+    padding-left: 257px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+
+}
+
+
+#body6{
+    margin-top:80px;
+}
+.title4{
+    margin-left: 57px;
+    padding-bottom: 35px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+    font-size: x-large;
+     
+}
+.image14{
+    width: 1362.86px;
+    height: 703.75px;
+    background-image: url(image14.webp);
+    background-size: cover;
+    margin-left: 59px;
+    margin-right: 59px;
+    margin-bottom: 50px;
+}
+#wrapper{
+    padding-left: 34px;
+    padding-top: 454px;
+}
+.gymred1{
+    font-size: medium;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.airjordan{
+    font-size: 71px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bolder;
+}
+.button7{
+    
+    background-color: #0e0e0e;
+    color: #d1cdcd;
+    width: 114px;
+    height: 38px;
+    border-radius: 125px;
+    font-weight: 400px;
+    
+
+}
+.title5{
+    margin-left: 59px;
+    padding-top: 80px;
+    padding-bottom: 35px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+    font-size: x-large;
+}
+#body7{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+   }
+
+.image15{
+    width: 444px;
+    height: 600px;
+    background-image: url(image15.jpg);
+    background-size: cover;
+    margin-left: 50px;
+    
+}
+.image16{
+    width: 444px;
+    height: 600px;
+    background-image: url(image16.webp);
+    background-size: cover;
+    margin-left: 10px;
+    
+}
+.image17{
+    width: 444px;
+    height: 600px;
+    background-image: url(image17.jpg);
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 50px;
+    
+}
+.button8{
+    margin-top: 519px;
+    margin-left: 37px;
+    background-color: #ffffff;
+    color: #080808;
+    width: 114px;
+    height: 38px;
+    border-radius: 125px;
+    font-weight: 400px;
+    border: none;
+}
+
+
+#footer1{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    
+}
+.list li{
+    padding-top: 15px;
+    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #898686;
+}
+.footer1-heading{
+    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+}
+
+   
+
+
+#footer2{
+    background-color: #000000;
+    width: 100%;
+    height: 419px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer-top {
+    display: flex;
+}
+
+
+.findastore{
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.findastore1{
+    color: #ffffff;
+    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:  small;
+
+}
+.findastore li{
+    color: #ffffff;
+    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-top: 20px;
+    font-size: small;
+    
+}
+.gethelp{
+    margin-top: 50px;
+    margin-left: 34px;
+    margin-left: 124px;
+}
+.gethelp li{
+    color: #7b7979;
+    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-top: 20px;
+    font-size: x-small;
+}
+.aboutnike{
+    margin-top: 50px;
+    margin-left: 124px;
+}
+.aboutnike li{
+  color: #7b7979;;
+  font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding-top: 20px;
+  font-size: x-small;
+}
+.social-media{
+    margin-left: 37rem;
+    margin-top: 4rem;
+    
+}
+.social-link-icon{
+    
+        fill: #7e7e7e;
+        transition: fill .2s;
+        margin-left: 9px;
+        
+        
+    
+}
+.location{
+    stroke: #fcfbfb;
+    margin-top: 6rem;
+    margin-left: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.india,.guid h6{
+    color: rgb(149, 145, 145);
+    padding-left: 21px;
+   
+}
+.guid,.location-1{
+    display: flex;
+    
+}
+.guid{
+    margin-right: 55px;
+    font-size: large;
+    font-weight: lighter;
+    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+
+}
+.location-1{
+    margin-left: 11px;
+}
+
+
+    
+
